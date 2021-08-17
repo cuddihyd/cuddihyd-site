@@ -1,14 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `cuddihyd`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `David Cuddihy`,
+      summary: `Software engineer/team-lead working remotely from Ithaca NY.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A simple blog.`,
+    siteUrl: `https://cuddihyd.github.io`,
     social: {
-      twitter: `kylemathews`,
     },
   },
   plugins: [
@@ -118,7 +117,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/ray-eames-pattern.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
