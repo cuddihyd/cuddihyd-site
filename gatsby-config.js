@@ -3,11 +3,12 @@ module.exports = {
     title: `cuddihyd`,
     author: {
       name: `David Cuddihy`,
-      summary: `Software engineer/team-lead working remotely from Ithaca NY.`,
+      summary: `Quantitative software engineer/team-lead working remotely from Ithaca NY.`,
     },
     description: `A simple blog.`,
     siteUrl: `https://cuddihyd.github.io`,
     social: {
+      linkedin: "david-cuddihy-5014419"
     },
   },
   plugins: [
@@ -111,7 +112,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `DCuddihy Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
